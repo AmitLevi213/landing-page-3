@@ -1,0 +1,87 @@
+html {
+  background-image: url(./landingpage-forpoject3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.grey-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeeed1;
+  width: 60vh;
+  height: 65vh;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+}
+
+.otef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px 50px 100px 50px;
+}
+
+h1 {
+  color: #071192;
+}
+
+.grey-block p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input {
+  background-color: #ffffff;
+  border-bottom: 3px solid #071192;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  width: 45vh;
+  height: 40px;
+}
+
+label {
+  color: #2c2c2c;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.button {
+  background-color: #071192;
+  color: white;
+  font-size: 1rem;
+  width: 166px;
+  height: 50px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    width: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grey-block {
+    width: 450px;
+    height: 70vh;
+    margin-top: 100px;
+  }
+
+  .otef p {
+    text-align: center;
+  }
+}
